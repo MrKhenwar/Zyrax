@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793960328857",
+    "project_id": "zyrax-68ed3",
+    "storage_bucket": "zyrax-68ed3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793960328857:android:4b481fc8ae4ac8b30d1208",
+        "android_client_info": {
+          "package_name": "com.fitnessrevolution.FitnessRevolutionExpo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4_VsKJHJgDtqt6J4XjBHNlk6iEtBcaZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

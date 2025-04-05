@@ -25,7 +25,9 @@ export default function TabLayout() {
           },
           default: {},
         }),
-      }}>
+      }}
+    >
+      {/* Home Screen */}
       <Tabs.Screen
         name="index"
         options={{
@@ -33,11 +35,22 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
+
+      {/* Community Screen */}
       <Tabs.Screen
-        name="explore"
+        name="community"
         options={{
-          title: 'Explore',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
+          title: 'Community',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="t.bubble.fill" color={color} />,
+        }}
+      />
+
+      {/* Profile Screen (Moved to the rightmost position) */}
+      <Tabs.Screen
+        name="profile"
+        options={{
+          title: 'Profile',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="person.fill" color={color} />,
         }}
       />
     </Tabs>
